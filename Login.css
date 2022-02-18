@@ -1,5 +1,13 @@
+h1 {
+	text-align: center;
+}
+
 body {
 	background-color: beige;
+}
+
+form {
+	width: 100px;
 }
 
 button.login:hover {
