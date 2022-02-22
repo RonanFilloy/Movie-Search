@@ -1,5 +1,8 @@
 h1 {
 	text-align: center;
+	background-color: darkgrey;
+	border: 1px solid black;
+	width: 500px;
 }
 
 body {
@@ -7,10 +10,24 @@ body {
 }
 
 form {
-	width: 100px;
+	width: 200px;
+	height: 170px;
+	border: 2px solid black;
+	border-radius: 10%;
+	padding: 1%;
+	background-color: darkgrey;
+}
+
+label {
+	font-weight: bold;
 }
 
 button.login:hover {
 	background-color: brown;
 	color: white;
+}
+
+button.login {
+	padding: 0 5px;
+	border-radius: 10%;
 }

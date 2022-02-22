@@ -11,20 +11,26 @@
 </head>
 
 <body>
-    <h2>Please log in if you already have an account</h2>
+    <h2>Log in</h2>
     <form action="/l">
-        <p>
-            <label for="Username">Username: </label>
-            <input type="text" id="Username" placeholder="Username" minlength="5" maxlength="12" required>
-        </p>
-        <p>
-            <label for="Password">Password: </label>
-            <input type="text" id="Password" placeholder="Password" minlength="7" maxlength="20" required>
-        </p>
+        <div>
+            <p>
+                <label for="Username">Username: </label>
+                <input type="text" id="Username" placeholder="Username" minlength="5" maxlength="12" required>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="Password">Password: </label>
+                <input type="text" id="Password" placeholder="Password" minlength="7" maxlength="20" required>
+            </p>
+        </div>
         <button class="login">Submit</button>
     </form>
     <hr>
     <nav>
+        <p> <a href=""> Forgot your password? </a></p>
+        <p> <a href=""> Forgot your username? </a></p>
         <p>Don't have an account yet? <a href="RegisterForm.html">click here to register</a></p>
     </nav>
 </body>
